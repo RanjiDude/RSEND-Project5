@@ -22,7 +22,6 @@ int main( int argc, char** argv )
 
   while (ros::ok())
   {
-    
     ros::spinOnce();
 
     visualization_msgs::Marker marker;
